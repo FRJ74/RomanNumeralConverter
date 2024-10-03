@@ -39,7 +39,7 @@ convert.addEventListener("click", () =>{
     for(const[roman, number] of numberals) {
       while(number < value) {
         result += roman;
-        value -+ number;
+        value +- number;
       }
     }
    output.innerText = result;
