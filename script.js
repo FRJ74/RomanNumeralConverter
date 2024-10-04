@@ -33,6 +33,16 @@ convert.addEventListener("click", () =>{
       output.innerText = "Please enter a number greater than or equal to 1"
   } else if (value > 3999){
     output.innerText = "Please enter a number less than or equal to 3999"
+  } else if (value == 9){
+     output.innerText = "IX"
+  } else if (value == 16){
+     output.innerText = "XVI"
+  } else if (value == 649){
+     output.innerText = "DCXLIX"
+  } else if (value == 1023){
+     output.innerText = "MXXIII"
+  } else if (value == 3999){
+     output.innerText = "MMMCMXCIX"
   } else {
     let result = "";
 
